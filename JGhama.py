@@ -68,9 +68,7 @@ for t in range(10000):
 									"7.1.0",
 									"8.1.0",
 									"4.4.4",
-									"5.6.1",
-									"6.1.3"
-									])
+									"5.6.1",									"6.1.3"									])
 	b=random.choice([
 									'en-us',
 									'en-gb',
@@ -398,7 +396,7 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['bagong','sayang','kontol','bangsat']
+			pwv = ['123','1234','12345']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -417,8 +415,6 @@ def passwrd():
 					pwv.append(frs+'112233')
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'1122334455')
-					pwv.append('Bangladesh')
-					pwv.append('khankhan')
 					pwv.append('123'+frs+'123')
 					pwv.append('1234'+frs+'1234')
 					pwv.append('12345'+frs+'12345')
@@ -443,8 +439,6 @@ def passwrd():
 					pwv.append(frs+'112233')
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'1122334455')
-					pwv.append('Bangladesh')
-					pwv.append('khankhan')
 					pwv.append('123'+frs+'123')
 					pwv.append('1234'+frs+'1234')
 					pwv.append('12345'+frs+'12345')
