@@ -403,7 +403,7 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(nmf)
+				     pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
@@ -417,8 +417,6 @@ def passwrd():
 					pwv.append(frs+'112233')
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'1122334455')
-					pwv.append('Bangladesh')
-					pwv.append('khankhan')
 					pwv.append('123'+frs+'123')
 					pwv.append('1234'+frs+'1234')
 					pwv.append('12345'+frs+'12345')
@@ -429,7 +427,7 @@ def passwrd():
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
-					pwv.append(nmf)
+				     pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
@@ -443,8 +441,6 @@ def passwrd():
 					pwv.append(frs+'112233')
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'1122334455')
-					pwv.append('Bangladesh')
-					pwv.append('khankhan')
 					pwv.append('123'+frs+'123')
 					pwv.append('1234'+frs+'1234')
 					pwv.append('12345'+frs+'12345')
