@@ -492,7 +492,7 @@ def passwrd():
 			time.sleep(1)
 	loop+=1
 #--------------------[ METODE-B-API ]-----------------#
-def crackmobile_SHOAIB(idf,pwv,nmf):
+def crackmobile_shaba(idf,pwv,nmf):
 	global loop,ok,cp
 	bi = random.choice(['\33[m'])
 	pers = loop*100/len(id2)
